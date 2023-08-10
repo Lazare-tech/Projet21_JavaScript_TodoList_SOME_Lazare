@@ -1,0 +1,40 @@
+body{
+    background: rgb(240, 215, 225);
+}
+.list-group{
+    /* display: flex;
+    flex-direction: row; */
+}
+ul li i{
+    position: absolute;
+    left: 408px;
+    top:13px
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    /* text-align: center; */
+    
+    
+  }
+  
+  .flex-item-left {
+    padding: 10px;
+    margin: 5px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+
+    padding: 10px;
+    flex: 50%;
+    margin: 5px;
+
+  }
+  @media(max-width:521px){
+      i{
+          color: red !important;
+          /* padding: 10px; */
+      }
+  }

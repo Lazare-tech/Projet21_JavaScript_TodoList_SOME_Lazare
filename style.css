@@ -32,9 +32,33 @@ ul li i{
     margin: 5px;
 
   }
+  ul li{
+      cursor: pointer;
+      font-size: 17px;
+      list-style: none;
+      user-select: none;
+      padding: 12px 8px 12px 50px;
+      /* text-decoration: line-through 2px; */
+  }
+  ul li::before{
+      content:'';
+      border-radius: 50%;
+      height: 28px;
+      width: 28px;
+      background-image: url(images/unchecked.png);
+      background-size: ;
+  }
+  ul li:hover{
+      background: beige;
+  }
   @media(max-width:521px){
       i{
           color: red !important;
           /* padding: 10px; */
       }
+  }
+  //
+  ul li.checked{
+      color: #555;
+      text-decoration: line-through;
   }
